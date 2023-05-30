@@ -1,5 +1,13 @@
 # fresh project
 
+The basic Deno Fresh template, with working Tailwind V3+, through the Twind V1+.
+
+Uses the official Deno Fresh Twind v1 plugin. 
+
+The main change is to rename `$fresh/plugins/twind.ts` to `twindv1.ts` in the `main.ts`. And use the `@twind/core`'s `defineConfig` in the twind.config.ts
+
+Only these two files.
+
 ### Usage
 
 Start the project:
